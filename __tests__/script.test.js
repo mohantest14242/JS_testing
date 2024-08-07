@@ -16,7 +16,7 @@ describe('Basic JavaScript App', () => {
         );
 
         // Load and execute the script
-        require('../src/script')(document);
+        require('/src/script')(document);
     });
 
     test('button click should show an alert', () => {
