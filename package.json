@@ -1,0 +1,15 @@
+{
+    "name": "my-basic-js-app-tests",
+    "version": "1.0.0",
+    "description": "Test cases for my basic JavaScript application",
+    "main": "index.js",
+    "scripts": {
+      "pretest": "./pull_source.sh",
+      "test": "jest"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "jsdom": "^20.0.0"
+    }
+  }
+  
