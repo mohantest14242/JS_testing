@@ -11,12 +11,12 @@ describe('Basic JavaScript App', () => {
     beforeAll(() => {
         // Load the HTML document
         document = new DOMParser().parseFromString(
-            fs.readFileSync(path.resolve(__dirname, 'src/index.html'), 'utf8'),
+            fs.readFileSync(path.resolve(__dirname, '../src/index.html'), 'utf8'),
             'text/html'
         );
 
         // Load and execute the script
-        require('/src/script')(document);
+        require('../src/script.js')(document);
     });
 
     test('button click should show an alert', () => {
